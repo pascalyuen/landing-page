@@ -56,8 +56,35 @@ a {
     margin: 0;
 }
 
-.thunder {
-    max-height: 250px;
+.bubble-tea {
+    max-height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.card-img {
+    width: 200px;
+    height: 180px;
+    background-color: pink;
+    border: 5px solid lightpink;
+    border-radius: 25px;
 }
 
 .quote {
