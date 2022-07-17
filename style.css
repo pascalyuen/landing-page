@@ -15,8 +15,26 @@ a {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
+}
+
+.header-logo,
+.hero-main-text,
+.footer {
+    color: #F9FAF8;
+}
+
+.header-link,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-header,
+.quote-text {
+    color: #1F2937;
 }
 
 .header {
@@ -28,13 +46,6 @@ a {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
-}
-
-.header-link,
-.hero-secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .hero {
@@ -52,7 +63,6 @@ a {
 .hero-main-text {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8;
     margin: 0;
 }
 
@@ -70,7 +80,6 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1F2937;
 }
 
 .cards {
@@ -99,7 +108,6 @@ a {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color: #1F2937;
     margin-bottom: 0;
 }
 
@@ -107,4 +115,10 @@ a {
     font-weight: bold;
     align-self: flex-end;
     padding-right: 600px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
