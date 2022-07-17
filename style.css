@@ -12,7 +12,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
 }
 
 .header,
@@ -22,13 +21,43 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 100px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header-link,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.hero-left {
+    max-width: 600px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.thunder {
+    max-height: 250px;
 }
 
 .quote {
