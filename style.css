@@ -33,8 +33,16 @@ a {
 }
 
 .info-header,
+.card
 .quote-text {
     color: #1F2937;
+}
+
+.hero,
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -49,9 +57,6 @@ a {
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
     gap: 50px;
 }
@@ -106,7 +111,7 @@ a {
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: lighter;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -115,6 +120,35 @@ a {
     font-weight: bold;
     align-self: flex-end;
     padding-right: 600px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 50vw;
+    margin: 50px;
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-heading {
+    color: white;
+    margin-bottom: 0;
+}
+
+.cta-text {
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.cta-button {
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
 }
 
 .footer {
